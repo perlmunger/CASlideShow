@@ -10,7 +10,6 @@
 		B39E71FF16F23147000FBA02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39E71FE16F23147000FBA02 /* UIKit.framework */; };
 		B39E720116F23147000FBA02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39E720016F23147000FBA02 /* Foundation.framework */; };
 		B39E720316F23147000FBA02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39E720216F23147000FBA02 /* CoreGraphics.framework */; };
-		B39E720916F23147000FBA02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B39E720716F23147000FBA02 /* InfoPlist.strings */; };
 		B39E720B16F23147000FBA02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B39E720A16F23147000FBA02 /* main.m */; };
 		B39E720F16F23147000FBA02 /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B39E720E16F23147000FBA02 /* MLAppDelegate.m */; };
 		B39E721116F23147000FBA02 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B39E721016F23147000FBA02 /* Default.png */; };
@@ -34,7 +33,6 @@
 		B39E720016F23147000FBA02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B39E720216F23147000FBA02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B39E720616F23147000FBA02 /* CASlideShow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CASlideShow-Info.plist"; sourceTree = "<group>"; };
-		B39E720816F23147000FBA02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B39E720A16F23147000FBA02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B39E720C16F23147000FBA02 /* CASlideShow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CASlideShow-Prefix.pch"; sourceTree = "<group>"; };
 		B39E720D16F23147000FBA02 /* MLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLAppDelegate.h; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 				B39E722516F231AE000FBA02 /* Countryside-5.jpg */,
 				B39E722616F231AE000FBA02 /* Countryside-1.jpg */,
 				B39E720616F23147000FBA02 /* CASlideShow-Info.plist */,
-				B39E720716F23147000FBA02 /* InfoPlist.strings */,
 				B39E720A16F23147000FBA02 /* main.m */,
 				B39E720C16F23147000FBA02 /* CASlideShow-Prefix.pch */,
 				B39E721016F23147000FBA02 /* Default.png */,
@@ -186,7 +183,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B39E720916F23147000FBA02 /* InfoPlist.strings in Resources */,
 				B39E721116F23147000FBA02 /* Default.png in Resources */,
 				B39E721316F23147000FBA02 /* Default@2x.png in Resources */,
 				B39E721516F23147000FBA02 /* Default-568h@2x.png in Resources */,
@@ -217,14 +213,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B39E720716F23147000FBA02 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B39E720816F23147000FBA02 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		B39E721616F23147000FBA02 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -335,6 +323,7 @@
 				B39E722016F23147000FBA02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,12 +8,8 @@
 
 #import <QuartzCore/QuartzCore.h>
 
-@class MLImageLayer;
-
-
 @interface MLImageLayer : CALayer
 
-@property (nonatomic, assign) NSInteger counter;
-@property (nonatomic, assign) NSInteger previousCount;
-
+@property NSInteger counter, previousCount;
+@property CGImageRef image;
 @end

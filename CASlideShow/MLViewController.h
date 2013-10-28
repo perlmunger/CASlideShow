@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class MLImageLayer;
+#import "MLImageLayer.h"
 
 @interface MLViewController : UIViewController
 
-@property (nonatomic, strong) MLImageLayer *animationLayer;
+@property      MLImageLayer * animationLayer;
 
 @end
